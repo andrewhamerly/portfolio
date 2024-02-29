@@ -124,17 +124,23 @@
     color: var(--dark-color-1);
   }
 
+  /* Work In Progress - Left off here working on the Projects section */
+  .header {
+    position: absolute;
+
+  }
+
   .container {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     width: 100%;
     text-align: left;
   }
 
   .subcontainer {
     display: flex;
-    flex-direction: row;
-    flex: 0 0 100%;
+    flex-direction: column;
+    flex: 0 0 50%;
   }
 
   .card {
@@ -172,6 +178,7 @@
     background-color: var(--primary-color);
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
