@@ -13,6 +13,7 @@
     scroll-padding-top: 130px;
 }
 
+/* Universal Slector */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@
     font-size: 18px;
   }
   
+  /* Body Styles */
   body {
     background-color: var(--dark-color-4);
     color: var(--lightest-color);
@@ -27,6 +29,7 @@
     font-size: 1.5rem;
   }
  
+  /* Navigation Styles */
   nav {
     display: flex;
     flex-direction: row;
@@ -62,6 +65,7 @@
     border-radius: 8px;
   }
 
+  /* Link Styles */
   a {
     color: var( --primary-color);
     font-size: 24px;
@@ -71,6 +75,7 @@
     color: var(--secondary-color);
   }
 
+  /* Image Styles */
   figure {
     display: block;
     color: var(--primary-color);
@@ -84,6 +89,7 @@
     width: 125px;
   }
 
+  /* Header Container */
   .header-container {
     background: var(--primary-color);
     margin-top: 125px;
@@ -97,6 +103,7 @@
     height: 100%;
   }
 
+  /* Personal Picture */
   .my-photo {
     margin: 10px;
     width: 200px;
@@ -106,6 +113,7 @@
     border-style: solid;
   }
 
+  /* Button Styles */
   .button-container {
     display: flex;
     justify-content: space-between;
@@ -132,6 +140,7 @@
     color: var(--dark-color-1);
   }
 
+  /* H2 Header Styles */
   #about, #projects, #contact {
     background-color: var(--primary-color);
     border-radius: 25px;
@@ -144,6 +153,7 @@
     bottom: 75px;
   }
 
+  /* Container Style Setups */
   .container {
     display: flex;
     flex-direction: column;
@@ -171,6 +181,7 @@
     border-radius: 10px;
   }
 
+  /* Flex-Basis Styles for Sizing Projects */
   .front-image {
     flex-basis: 85%;
   }
@@ -179,6 +190,7 @@
     flex-basis: 40%;
   }
 
+  /* Card Styles */
   .card {
     position: relative;
     border-style: solid;
