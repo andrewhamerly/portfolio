@@ -25,6 +25,8 @@ Link to deployed application:
 
 ## Credits
 
+Credit to vladocar for the CSS-Micro-Reset used for the project. The repo can be found here: [CSS Micro Reset Repo](https://github.com/vladocar/CSS-Micro-Reset)
+
 Thank you to Kevin Powell for the tip on adjusting scroll for a fixed navigation to avoid covering. His video can be found on Youtube here: [Stop fixed navigation covering content on scroll](https://www.youtube.com/watch?v=iGUSTyG-CYw)
 
 ## License
